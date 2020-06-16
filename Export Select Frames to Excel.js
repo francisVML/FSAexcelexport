@@ -25,7 +25,7 @@ averageReading = new ActiveXObject("FSA4.Reading");
 regions = application.View.RecordingView.Panel("readings").Panel(0).Regions;
 
 //Number of Frames you want to extract, for 5min intervals is 144, for 1min interval is 60
-TotalFrames = 12;
+TotalFrames = 144;
 
 no_of_regions = regions.count;
 
